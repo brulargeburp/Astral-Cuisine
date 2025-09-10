@@ -1,0 +1,82 @@
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\scripts\collision\collision.gml
+Converted description /// @description  collision()
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\scripts\approach\approach.gml
+Converted description /// @description  approach(start, end, shift);/// @param start
+/// @param  end
+/// @param  shift
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\scripts\CamMoveTo\CamMoveTo.gml
+Converted description /// @description CamMoveTo()
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\scripts\custom_dust\custom_dust.gml
+Converted description /// @description custom_dust(x,y,vx,vy,color)/// @param x
+/// @param y
+/// @param vx
+/// @param vy
+/// @param color
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\scripts\animation_hit_frame\animation_hit_frame.gml
+Converted description /// @description animation_hit_frame(frame)/// @param frame
+
+GameMaker Studio 1 font texture has been backed up at C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\fonts\f_menu\f_menu.gms1.png
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\objects\p_enemy\Create_0.gml
+Converted description /// @description Initialize Enemies
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\objects\p_entity\Create_0.gml
+Converted description /// @description  Initialize Entites(Moveable)/// @param Moveable
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\objects\p_entity\Step_2.gml
+Converted description /// @description  Check Collisions
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\objects\p_entity\Step_1.gml
+Converted description /// @description  Collisions
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\objects\o_player\Create_0.gml
+Converted description /// @description  Initialize Player
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\objects\o_player\Step_0.gml
+Converted description /// @description  Inputs
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\objects\o_player\Draw_0.gml
+Converted description /// @description  Handle Sprites
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\objects\o_dust\Step_0.gml
+Converted description /// @description  Control Dust
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\objects\o_camera\Create_0.gml
+Converted description /// @description  Initialize the Camera
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\objects\o_camera\Alarm_0.gml
+Converted description /// @description  Camera shake
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\objects\o_camera\Step_2.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 1: view_xview[0] = clamp(__view_get( e__VW.XView, 0 ), 0, room_width-__view_get( e__VW.WView, 0 )) -> __view_set( e__VW.XView, 0, clamp(__view_get( e__VW.XView, 0 ), 0, room_width-__view_get( e__VW.WView, 0 )) )
+Converted builtin - line 2: view_yview[0] = clamp(__view_get( e__VW.YView, 0 ), 0, room_height-__view_get( e__VW.HView, 0 )) -> __view_set( e__VW.YView, 0, clamp(__view_get( e__VW.YView, 0 ), 0, room_height-__view_get( e__VW.HView, 0 )) )
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\objects\o_camera\Step_0.gml
+Converted builtin - line 3: view_xview[view_current] = x - view_wview[view_current]/2 -> __view_set( e__VW.XView, view_current, x - view_wview[view_current]/2 )
+Converted builtin - line 4: view_yview[view_current] = y - view_hview[view_current]/1.75 -> __view_set( e__VW.YView, view_current, y - view_hview[view_current]/1.75 )
+Converted description /// @description  Execute the state
+Converted builtin - line 3: view_wview[view_current] -> __view_get( e__VW.WView, view_current )
+Converted builtin - line 4: view_hview[view_current] -> __view_get( e__VW.HView, view_current )
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\objects\o_enemy\Create_0.gml
+Converted description /// @description  Initialize
+
+Converting GML script: C:\Users\PC\AppData\Local\GameMakerStudio2\GMS2TEMP\ProjectTool\Top-Down-RPG-Template_1386280324_gmz\mvc\objects\o_enemy\Step_0.gml
+Converted description /// @description  Squash and Stretch
+
+Game speed set to 60
+Added compatibility script 'instance\instance_create.gml'
+Added compatibility script 'object\object_get_depth.gml'
+Added compatibility script 'view\__view_get.gml'
+Added compatibility script 'view\__view_set.gml'
+Added compatibility script 'view\__view_set_internal.gml'
+Added compatibility script 'view\__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

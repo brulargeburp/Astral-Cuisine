@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"custom_dust",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"custom_dust",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
