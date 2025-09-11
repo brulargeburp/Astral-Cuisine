@@ -1,12 +1,19 @@
-/// @description  Inputs
+/// @description Inputs (Mobile Compatible)
+
+// Check for Keyboard Inputs
 var kUp, kDown, kLeft, kRight, kSelect, kBack;
 
-kUp = keyboard_check(vk_up);
-kDown = keyboard_check(vk_down);
-kLeft = keyboard_check(vk_left);
-kRight = keyboard_check(vk_right);
-kSelect = keyboard_check_pressed(ord("X"));
-kBack = keyboard_check_pressed(ord("Z"));
+// Mobile controls will override keyboard if active
+kUp    = global.v_up    || keyboard_check(vk_up);
+kDown  = global.v_down  || keyboard_check(vk_down);
+kLeft  = global.v_left  || keyboard_check(vk_left);
+kRight = global.v_right || keyboard_check(vk_right);
+
+// Check for both keyboard and mobile "action" presses
+kSelect = global.v_action1 || keyboard_check_pressed(ord("X"));
+// THIS IS THE FIXED LINE
+kBack   = keyboard_check_pressed(ord("Z"));
+
 
 // Movement
 //Left
@@ -116,4 +123,3 @@ if(state == RUN) {
           }
     }   
 }
-
