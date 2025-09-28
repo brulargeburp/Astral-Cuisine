@@ -44,3 +44,6 @@ switch(state) {
 // Draw Player
 draw_sprite_ext(sprite_index, image_index, x, y + (16 - 16 * yscale) * 0.25, facing * xscale, yscale, 0, c_white, image_alpha);
 
+// This function draws the player's normal sprite
+draw_self(); 
+

@@ -1,0 +1,51 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"t_kitchen",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":77,
+    "SerialiseWidth":17,
+    "TileCompressedData":[
+      -2,3,-15,0,-2,3,-16,0,12,5,6,7,5,6,7,5,6,7,5,6,7,-5,0,12,9,10,11,9,10,11,9,10,11,9,10,11,-5,0,12,13,
+      14,15,13,14,15,13,14,15,13,14,15,-5,0,12,5,6,7,5,6,7,5,6,7,5,6,7,-5,0,12,9,10,11,9,10,11,9,10,11,9,10,
+      11,-5,0,12,13,14,15,13,14,15,13,14,15,13,14,15,-5,0,12,5,6,7,5,6,7,5,6,7,5,6,7,-5,0,12,9,10,11,9,10,
+      11,9,10,11,9,10,11,-5,0,12,13,14,3,13,14,15,13,14,15,13,14,15,-5,0,12,5,3,3,5,6,7,5,6,7,5,6,7,-5,0,1,
+      9,-3,3,8,10,11,9,10,11,9,10,11,-5,0,1,13,-3,3,8,14,15,13,14,15,13,14,15,-50,0,2,250,251,-12,0,5,250,
+      251,0,274,275,-12,0,2,274,275,-38,0,2,250,251,-4,0,2,250,251,-9,0,2,274,275,-4,0,2,274,275,-710,0,2,
+      2,3,-30,0,1,12,-171,0,1,8,-14,0,
+    ],
+    "TileDataFormat":1,
+  },
+  "name":"t_kitchen",
+  "out_columns":24,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"s_tiles",
+    "path":"sprites/s_tiles/s_tiles.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":576,
+}

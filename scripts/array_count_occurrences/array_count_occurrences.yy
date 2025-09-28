@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"array_count_occurrences",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"array_count_occurrences",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

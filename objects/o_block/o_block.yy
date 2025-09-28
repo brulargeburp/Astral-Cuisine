@@ -6,8 +6,8 @@
   "name":"o_block",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"block",
+    "path":"folders/Objects/kitchen/block.yy",
   },
   "parentObjectId":{
     "name":"p_solid",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_block",
-    "path":"sprites/s_block/s_block.yy",
+    "name":"s_block_uprdownright",
+    "path":"sprites/s_block_uprdownright/s_block_uprdownright.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -26,3 +26,7 @@ attackRate = .05;
 dir = 0;
 facing = image_xscale;
 
+// Initialize an empty inventory list
+inventory = [];
+
+show_debug_message("Hello! The Player Object has been created successfully!");
