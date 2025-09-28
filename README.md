@@ -40,4 +40,4 @@ A: No, and that will mean everytime you close the game, the points will revert b
 
 Q: Linux port?
 
-A: Use wine. There are a lot of tutorials on how to install it.
+A: Use wine. There are tutorials on how to install it.
